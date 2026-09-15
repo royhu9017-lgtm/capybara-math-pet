@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "pet_name": "咕姆",
+  "owner": "",
+  "initialized": false,
+  "created_date": null,
+  "math_source": {
+    "type": "",
+    "level": null,
+    "daily_target": null
+  },
+  "stage": 1,
+  "stage_name": "咕咕蛋",
+  "exp": 0,
+  "exp_log": [],
+  "streak_days": 0,
+  "best_streak_days": 0,
+  "last_checkin_date": null,
+  "total_days": 0,
+  "week_start_date": null,
+  "week_index": 0,
+  "sleeping": false,
+  "sleeping_since": null,
+  "correction_pool": [],
+  "pending_confirm": [],
+  "knowledge_stats": {},
+  "error_type_stats": {
+    "conceptual": 0,
+    "procedural": 0,
+    "careless": 0
+  },
+  "flags": {
+    "cheat_warnings": 0,
+    "suspected_proxy_work": 0
+  },
+  "history": [],
+  "notes": {
+    "exp_log_entry": "{date, source, delta, note}",
+    "correction_pool_entry": "{id, date, code, label, question_ref, error_type, attempts, resolved}",
+    "pending_confirm_entry": "{id, date, question_ref, ocr_raw, reason}",
+    "knowledge_stats_entry": "{K01: {total: 0, correct: 0, wrong: 0}}"
+  }
+}
